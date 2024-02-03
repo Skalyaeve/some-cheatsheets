@@ -1,2 +1,2 @@
-# doc
-$HOME/doc
+# A knwoledge synthesis
+> work in progress
