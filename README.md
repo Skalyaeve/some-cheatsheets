@@ -1,0 +1,2 @@
+# doc
+$HOME/doc
