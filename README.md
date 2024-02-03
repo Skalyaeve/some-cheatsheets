@@ -1,2 +1,13 @@
 # A knwoledge synthesis
-> work in progress
+- Linux
+    * Fundamentals
+    * Scripting
+    * PrivEsc
+- Windows
+    * Fundamentals
+    * Scripting
+    * PrivEsc
+- Network
+    * Fundamentals
+- Web
+    * Fundamentals
