@@ -53,6 +53,23 @@
 | `/etc/fstab` | Configuration des points de montage. |
 | `/etc/ssh/sshd_config` | Configuration du serveur SSH. |
 </details>
+<details><summary>Quelques variables d'environnement</summary>
+
+| Variable | Description |
+|-|-|
+| `PATH` | Chemin d'accès des exécutables. |
+| `USER` | Nom de l'utilisateur. |
+| `LOGNAME` | Nom de l'utilisateur. |
+| `HOSTNAME` | Nom d'hôte du système. |
+| `SHELL` | Shell par défaut. |
+| `HOME` | Répertoire personnel de l'utilisateur. |
+| `PWD` | Répertoire courant. |
+| `TERM` | Type de terminal. |
+| `LANG` | Langue par défaut. |
+| `EDITOR` | Éditeur par défaut. |
+| `LS_COLORS` | Couleurs de `ls`. |
+| `PS1` | Prompt. |
+</details>
 
 ## Commandes basiques
 
