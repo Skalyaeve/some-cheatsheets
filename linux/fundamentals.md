@@ -219,6 +219,7 @@
 
 | Commande | Description | Exemple |
 |-|-|-|
+| `echo` | Affiche une chaîne de caractères. | `echo "Hello World"` |
 | `less` | Affiche une chaîne de caractères dans une interface interactive. | `less file` |
 | `more` | Affiche une chaîne de caractères petit à petit. | `more file` |
 | `head` | Affiche les premières lignes d'une chaîne de caractères. | `head file` |
