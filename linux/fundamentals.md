@@ -6,13 +6,13 @@
 
 | Composant | Description | Exemple |
 |-|-|-|
-| `Bootloader` | Programme qui charge le noyau du système. | GRUB |
-| `Kernel` | Noyau du système. | Linux |
-| `Daemons` | Processus en arrière-plan. | `sshd`, `httpd` |
-| `Shell` | Interface en ligne de commande. | `bash`, `zsh` |
-| `Graphics Server` | Serveur graphique. | Xorg, Wayland |
-| `Window Manager` | Gestionnaire de fenêtres. | xfce, GNOME |
-| `Utilities` | Applications et outils. | `ls`, `ps` |
+| Bootloader | Programme qui charge le noyau du système. | GRUB |
+| Kernel | Noyau du système. | Linux |
+| Daemons | Processus en arrière-plan. | `sshd`, `httpd` |
+| Shell | Interface en ligne de commande. | `bash`, `zsh` |
+| Graphics Server | Serveur graphique. | Xorg, Wayland |
+| Window Manager | Gestionnaire de fenêtres. | xfce, GNOME |
+| Utilities | Applications et outils. | `ls`, `ps` |
 </details>
 <details><summary>Système de fichier</summary>
 
@@ -65,19 +65,11 @@
 | `env` | Informations sur l'environnement. | `env` |
 | `uname` | Informations sur le système. | `uname -a` |
 | `hostname` | Nom d'hôte du système. | `hostname` |
-| `ip` | Informations sur les interfaces réseau. | `ip a` |
-| `ifconfig` | Informations sur les interfaces réseau. | `ifconfig` |
-| `iptables` | Informations sur les règles de pare-feu. | `iptables -L` |
-| `ufw` | Informations sur les règles de pare-feu. | `ufw status` |
-| `route` | informations sur les routes. | `route` |
-| `netstat` | Informations sur les connexions réseau. | `netstat -tulpen` |
-| `ss` | Informations sur les connexions réseau. | `ss -tulpen` |
-| `route` | Informations sur les routes. | `route` |
 | `service` | Informations sur les services. | `service --status-all` |
 | `systemctl` | Informations sur les services. | `systemctl` |
-| `crontab` | Informations sur les tâches planifiées. | `crontab -l` |
-| `fdisk` | Informations sur les partitions. | `fdisk -l` |
+| `cron` | Informations sur les tâches planifiées. | `crontab -l` |
 | `mount` | Informations sur les points de montage. | `mount` |
+| `fdisk` | Informations sur les partitions. | `fdisk -l` |
 | `lsof` | Informations sur les fichiers ouverts. | `lsof` |
 | `lsblk` | Informations sur les périphériques de stockage. | `lsblk` |
 | `lsusb` | Informations sur les périphériques USB. | `lsusb` |
@@ -90,19 +82,38 @@
 |-|-|-|
 | `export` | Définit une variable d'environnement. | `export VAR=value` |
 | `unset` | Supprime une variable d'environnement. | `unset VAR` |
+| `service` | Gestion des services. | `man service` |
+| `systemctl` | Gestion des services. | `man systemctl` |
+| `cron` | Gestion des tâches planifiées. | `crontab -h` |
+| `mount` | Montage de périphériques. | `mount /dev/sda1 /mnt` |
+| `fdisk` | Gestion des partitions. | `fdisk -h` |
+| `reboot` | Redémarre le système. | `reboot` |
+| `shutdown` | Éteint le système. | `shutdown -h now` |
+| `rsync` | File backup | `rsync -h` |
+</details>
+
+### Réseau
+<details><summary>Énumération</summary>
+
+| Commande | Description | Exemple |
+|-|-|-|
+| `ip` | Informations sur les interfaces réseau. | `ip a` |
+| `ifconfig` | Informations sur les interfaces réseau. | `ifconfig` |
+| `iptables` | Informations sur les règles de pare-feu. | `iptables -L` |
+| `ufw` | Informations sur les règles de pare-feu. | `ufw status` |
+| `route` | informations sur les routes. | `route` |
+| `netstat` | Informations sur les connexions réseau. | `netstat -tulpen` |
+| `ss` | Informations sur les connexions réseau. | `ss -tulpen` |
+</details>
+<details><summary>Management</summary>
+
+| Commande | Description | Exemple |
+|-|-|-|
 | `ip` | Gestion des interfaces réseau. | `ip -h` |
 | `ifconfig` | Gestion des interfaces réseau. | `ifconfig -h` |
 | `iptables` | Gestion des règles de pare-feu. | `iptables -h` |
 | `ufw` | Gestion des règles de pare-feu. | `ufw -h` |
 | `route` | Gestion des routes. | `route -h` |
-| `service` | Gestion des services. | `man service` |
-| `systemctl` | Gestion des services. | `man systemctl` |
-| `cron` | Gestion des tâches planifiées. | `crontab -h` |
-| `rsync` | File backup | `rsync -h` |
-| `fdisk` | Gestion des partitions. | `fdisk -h` |
-| `mount` | Montage de périphériques. | `mount /dev/sda1 /mnt` |
-| `reboot` | Redémarre le système. | `reboot` |
-| `shutdown` | Éteint le système. | `shutdown -h now` |
 </details>
 
 ### Système de fichier
