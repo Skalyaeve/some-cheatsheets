@@ -159,6 +159,25 @@
 | `rsync` | File backup | `rsync -h` |
 </details>
 
+### Processus
+<details><summary>Énumération</summary>
+
+| Commande | Description | Exemple |
+|-|-|-|
+| `ps` | Informations sur les processus en cours. | `ps aux` |
+| `strace` | Trace les appels systèmes faits par un processus. | `strace -p 1` |
+| `ltrace` | Trace les appels de bibliothèques faits par un processus. | `ltrace -p 1` |
+</details>
+<details><summary>Management</summary>
+
+| Commande | Description | Exemple |
+|-|-|-|
+| `kill` | Envoie un signal à un processus. | `kill -9 1234` |
+| `fg` | Met un processus en avant-plan. | `fg` |
+| `bg` | Met un processus en arrière-plan. | `bg` |
+| `jobs` | Liste les processus en arrière-plan. | `jobs` |
+</details>
+
 ### Réseau
 <details><summary>Énumération</summary>
 
@@ -195,25 +214,6 @@
 | `scp` | Transfert de fichiers SSH. | `scp user@host:/path dst` |
 </details>
 
-### Processus
-<details><summary>Énumération</summary>
-
-| Commande | Description | Exemple |
-|-|-|-|
-| `ps` | Informations sur les processus en cours. | `ps aux` |
-| `strace` | Trace les appels systèmes faits par un processus. | `strace -p 1` |
-| `ltrace` | Trace les appels de bibliothèques faits par un processus. | `ltrace -p 1` |
-</details>
-<details><summary>Management</summary>
-
-| Commande | Description | Exemple |
-|-|-|-|
-| `kill` | Envoie un signal à un processus. | `kill -9 1234` |
-| `fg` | Met un processus en avant-plan. | `fg` |
-| `bg` | Met un processus en arrière-plan. | `bg` |
-| `jobs` | Liste les processus en arrière-plan. | `jobs` |
-</details>
-
 ### Chaînes de caractères
 <details><summary>Afficher</summary>
 
@@ -247,8 +247,8 @@
 |-|-|
 | `Ctrl + A` | Aller au début de la ligne en cours. |
 | `Ctrl + E` | Aller à la fin de la ligne en cours. |
-| `Ctrl + <-` | Déplacement accéléré vers la gauche. |
-| `Ctrl + ->` | Déplacement accéléré vers la droite. |
+| `Ctrl + [<-]` | Déplacement accéléré vers la gauche. |
+| `Ctrl + [->]` | Déplacement accéléré vers la droite. |
 | `Alt + B` | Déplacement d'un mot vers la gauche. |
 | `Alt + F` | Déplacement d'un mot vers la droite. |
 </details>
