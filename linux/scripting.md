@@ -8,7 +8,6 @@
 ```sh
 if [ condition ]; then
 ```
-- `test`
 ```sh
 if test condition; then
 ```
