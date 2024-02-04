@@ -45,13 +45,13 @@
 | `/etc/shadow` | Mots de passe des utilisateurs. |
 | `/etc/group` | Informations sur les groupes. |
 | `/etc/sudoers` | Configuration de sudo. |
-| `/etc/hosts` | Fichier de résolution de noms. |
 | `/etc/resolv.conf` | Configuration des serveurs DNS. |
+| `/etc/hosts` | Fichier de résolution de noms. |
+| `/etc/host.allow` | Configuration des accès autorisés. |
+| `/etc/host.deny` | Configuration des accès refusés. |
 | `/etc/fstab` | Configuration des points de montage. |
 | `/etc/crontab` | Configuration des tâches planifiées. |
 | `/etc/ssh/sshd_config` | Configuration du serveur SSH. |
-| `/etc/host.allow` | Configuration des accès autorisés. |
-| `/etc/host.deny` | Configuration des accès refusés. |
 </details>
 
 ## Commandes basiques
