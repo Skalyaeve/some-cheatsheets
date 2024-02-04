@@ -165,6 +165,18 @@
 | `ufw` | Gestion des règles de pare-feu. | `ufw -h` |
 | `route` | Gestion des routes. | `route -h` |
 </details>
+<details><summary>Communication</summary>
+
+| Commande | Description | Exemple |
+|-|-|-|
+| `ping` | Test de connectivité. | `ping google.com` |
+| `traceroute` | Affiche le chemin pris par les paquets. | `traceroute google.com` |
+| `curl` | Affiche une ressource web. | `curl google.com` |
+| `wget` | Télécharge une ressource web. | `wget google.com` |
+| `nc` | Outil de communication réseau. | `nc -vlnp 4242` |
+| `ssh` | Connexion SSH. | `ssh user@host` |
+| `scp` | Transfert de fichiers SSH. | `scp user@host:/path dst` |
+</details>
 
 ### Processus
 <details><summary>Énumération</summary>
@@ -207,18 +219,4 @@
 | `cut` | Coupe certaines parties d'une chaîne de caractères. | `cut -d: -f1 file` |
 | `uniq` | Supprime les lignes en double d'une chaîne de caractères. | `uniq file` |
 | `sort` | Trie une chaîne de caractères. | `sort file` |
-</details>
-
-### MISC
-<details><summary>Interactions réseau</summary>
-
-| Commande | Description | Exemple |
-|-|-|-|
-| `ping` | Test de connectivité. | `ping google.com` |
-| `traceroute` | Affiche le chemin pris par les paquets. | `traceroute google.com` |
-| `curl` | Affiche une ressource web. | `curl google.com` |
-| `wget` | Télécharge une ressource web. | `wget google.com` |
-| `nc` | Outil de communication réseau. | `nc -vlnp 4242` |
-| `ssh` | Connexion SSH. | `ssh user@host` |
-| `scp` | Transfert de fichiers SSH. | `scp user@host:/path dst` |
 </details>
