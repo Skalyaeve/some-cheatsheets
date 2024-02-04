@@ -6,12 +6,12 @@
 | Composant | Description | Exemple |
 |-|-|-|
 | Bootloader | Chargé de démarrer le système. | GRUB |
-| Kernel | Chargé de gérer les ressources du système. | 6.5, 6.4 |
+| Kernel | Chargé de gérer le système. | 6.5, 6.4 |
 | Daemons | Applications en arrière-plan. | `sshd`, `httpd` |
 | Shell | Interface entre l'utilisateur et le système. | `bash`, `zsh` |
 | Graphics Server | Chargé de gérer les graphismes. | Xorg, Wayland |
 | Desktop Environment | Chargé de créer un environnement de bureau. | GNOME, xfce |
-| Utilities | Applications et outils. | `ls`, `ps` |
+| Utilitaires | Applications. | `ls`, `ps` |
 </details>
 <details><summary>Système de fichier</summary>
 
@@ -25,9 +25,9 @@
 | `/etc` | Fichiers de configuration. |
 | `/var` | Fichiers de données variables. |
 | `/run` | Fichiers relatifs à l'exécution du système. |
-| `/usr` | Applications et les fichiers partagés. |
-| `/lib` | Bibliothèques partagées. |
-| `/bin` | Binaires essentielles. |
+| `/usr` | Applications et fichiers partagés entre utilisateurs. |
+| `/lib` | Bibliothèques partagées entre applications. |
+| `/bin` | Principales commandes et applications. |
 | `/sbin` | Binaires essentielles à l'administration du système. |
 | `/opt` | Logiciels optionnels. |
 | `/home` | Répertoires personnels des utilisateurs. |
@@ -254,4 +254,3 @@
 | `Ctrl + Z` | Mettre le processus en arrière-plan via `SIGTSTP`. |
 | `Ctrl + D` | Caractère `EOF`. |
 </details>
-
