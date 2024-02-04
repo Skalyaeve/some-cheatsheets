@@ -62,13 +62,13 @@
 
 | Commande | Description | Exemple |
 |-|-|-|
-| `pwd` | Affiche le répertoire courant. | `pwd` |
-| `ls` | Liste les fichiers et répertoires. | `ls -la` |
-| `tree` | Affiche l'arborescence des fichiers. | `tree` |
-| `locate` | Recherche des fichiers. | `locate file` |
-| `find` | Recherche des fichiers. | `find / -name exemple` |
-| `whereis` | Affiche le chemin d'accès d'une commande. | `whereis ls` |
+| `pwd` | Affiche le chemin du répertoire courant. | `pwd` |
+| `tree` | Affiche une arborescence de fichiers. | `tree -h` |
+| `ls` | Liste le contenu d'un répertoire. | `ls -la` |
 | `cat` | Affiche le contenu d'un fichier. | `cat file` |
+| `whereis` | Affiche le chemin d'accès d'une commande. | `whereis ls` |
+| `locate` | Recherche des éléments. | `locate file` |
+| `find` | Recherche des éléments. | `find / -name exemple` |
 | `diff` | Compare deux fichiers. | `diff file1 file2` |
 </details>
 <details><summary>Managment</summary>
