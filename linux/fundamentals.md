@@ -11,7 +11,7 @@
 | Daemons | Processus en arrière-plan. | `sshd`, `httpd` |
 | Shell | Interface en ligne de commande. | `bash`, `zsh` |
 | Graphics Server | Serveur graphique. | Xorg, Wayland |
-| Window Manager | Gestionnaire de fenêtres. | xfce, GNOME |
+| Desktop Environment | Environnement graphique. | GNOME, xfce |
 | Utilities | Applications et outils. | `ls`, `ps` |
 </details>
 <details><summary>Système de fichier</summary>
