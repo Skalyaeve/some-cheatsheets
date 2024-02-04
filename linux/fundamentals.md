@@ -10,8 +10,8 @@
 | Kernel | Chargé de gérer les ressources du système. | `linux`, `bsd` |
 | Daemons | Applications en arrière-plan. | `sshd`, `httpd` |
 | Shell | Interface entre l'utilisateur et le système. | `bash`, `zsh` |
-| Graphics Server | Chargé de gérer les graphismes. | `Xorg`, `Wayland` |
-| Desktop Environment | Chargé de créer un environnement de bureau. | `GNOME`, `KDE` |
+| Graphics Server | Chargé de gérer les graphismes. | Xorg, Wayland |
+| Desktop Environment | Chargé de créer un environnement de bureau. | GNOME, xfce |
 | Utilities | Applications et outils. | `ls`, `ps` |
 </details>
 <details><summary>Système de fichier</summary>
