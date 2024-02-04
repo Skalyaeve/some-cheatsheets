@@ -3,19 +3,8 @@
 
 ## Structure
 <details><summary>Conditionnel</summary>
+<details><summary>Conditionnel basique</summary>
 
-```sh
-if conditionnel; then
-    # code
-elif conditionnel; then
-    # code
-else
-    # code
-fi
-```
-
-### Conditionnel basique
-- `[ ]`
 ```sh
 if [ condition ]; then
 ```
@@ -36,8 +25,9 @@ if test condition; then
     ```sh
     if [ ! condition ]; then
     ```
-### Conditionnel avancé
-- `[[ ]]`
+</details>
+<details><summary>Conditionnel avancé</summary>
+
 ```sh
 if [[ condition ]]; then
 ```
@@ -54,21 +44,32 @@ if [[ condition ]]; then
     ```sh
     if [[ ! condition ]]; then
     ```
+</details>
+<details><summary>Conditionnel arithmétique</summary>
 
-### Conditionnel arithmétique
-- `(( ))`
 ```sh
 if (( condition )); then
 ```
 - Fonctionne uniquement avec des nombres.
 - Ne supporte pas les opérateurs logiques.
-- Supporte uniquement dles opérateurs de comparaison arithmétiques:
+- Supporte uniquement les opérateurs de comparaison arithmétiques:
     * `==` Égal
     * `!=` Différent
     * `>` Supérieur
     * `<` Inférieur
     * `>=` Supérieur ou égal
     * `<=` Inférieur ou égal
+</details>
+
+```sh
+if conditionnel; then
+    # code
+elif conditionnel; then
+    # code
+else
+    # code
+fi
+```
 </details>
 <details><summary>Arithmétique</summary>
 
@@ -99,7 +100,7 @@ if (( condition )); then
 </details>
 <details><summary>Tableaux</summary>
 
-### Déclaration
+#### Déclaration
 ```sh
 array1=(value1 value2 value3)
 array2=(
@@ -108,7 +109,7 @@ array2=(
     value3
 )
 ```
-### Accès
+#### Accès
 ```sh
 echo ${array1[0]}
 echo ${array1[@]}
