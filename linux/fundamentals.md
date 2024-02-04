@@ -57,6 +57,57 @@
 
 ## Commandes basiques
 
+### Système de fichier
+<details><summary>Énumération</summary>
+
+| Commande | Description | Exemple |
+|-|-|-|
+| `pwd` | Affiche le répertoire courant. | `pwd` |
+| `ls` | Liste les fichiers et répertoires. | `ls -la` |
+| `tree` | Affiche l'arborescence des fichiers. | `tree` |
+| `locate` | Recherche des fichiers. | `locate file` |
+| `find` | Recherche des fichiers. | `find / -name exemple` |
+| `whereis` | Affiche le chemin d'accès d'une commande. | `whereis ls` |
+| `cat` | Affiche le contenu d'un fichier. | `cat file` |
+| `diff` | Compare deux fichiers. | `diff file1 file2` |
+</details>
+<details><summary>Managment</summary>
+
+| Commande | Description | Exemple |
+|-|-|-|
+| `cd` | Change le répertoire courant. | `cd /path` |
+| `mkdir` | Crée un répertoire. | `mkdir dir` |
+| `touch` | Crée un fichier. | `touch file` |
+| `rm` | Supprime des fichiers ou répertoires. | `rm -rf /` |
+| `mv` | Déplace ou renomme des fichiers ou répertoires. | `mv file1 file2` |
+| `cp` | Copie des fichiers ou répertoires. | `cp file1 file2` |
+| `ln` | Crée des liens symboliques ou physiques. | `ln -s file link` |
+| `chmod` | Modifie les permissions d'un fichier. | `chmod 777 file` |
+| `chown` | Modifie le propriétaire d'un fichier. | `chown -R user:group dir` |
+</details>
+
+### Utilisateurs et Groupes
+<details><summary>Énumération</summary>
+
+| Commande | Description | Exemple |
+|-|-|-|
+| `id` | Identité de l'utilisateur. | `id` |
+| `groups` | Groupes de l'utilisateur. | `groups` |
+| `sudo -l` | Droits sudo de l'utilisateur. | `sudo -l` |
+| `who` | Informations sur les utilisateurs connectés. | `who` |
+</details>
+<details><summary>Management</summary>
+
+| Commande | Description | Exemple |
+|-|-|-|
+| `useradd` | Crée un utilisateur. | `useradd -m -s /bin/bash user` |
+| `userdel` | Supprime un utilisateur. | `userdel user` |
+| `usermod` | Modifie un utilisateur. | `usermod -aG sudo user` |
+| `passwd` | Modifie le mot de passe d'un utilisateur. | `passwd user` |
+| `addgroup` | Crée un groupe. | `addgroup group` |
+| `delgroup` | Supprime un groupe. | `delgroup group` |
+</details>
+
 ### Système
 <details><summary>Énumération</summary>
 
@@ -114,57 +165,6 @@
 | `iptables` | Gestion des règles de pare-feu. | `iptables -h` |
 | `ufw` | Gestion des règles de pare-feu. | `ufw -h` |
 | `route` | Gestion des routes. | `route -h` |
-</details>
-
-### Système de fichier
-<details><summary>Énumération</summary>
-
-| Commande | Description | Exemple |
-|-|-|-|
-| `pwd` | Affiche le répertoire courant. | `pwd` |
-| `ls` | Liste les fichiers et répertoires. | `ls -la` |
-| `tree` | Affiche l'arborescence des fichiers. | `tree` |
-| `locate` | Recherche des fichiers. | `locate file` |
-| `find` | Recherche des fichiers. | `find / -name exemple` |
-| `whereis` | Affiche le chemin d'accès d'une commande. | `whereis ls` |
-| `cat` | Affiche le contenu d'un fichier. | `cat file` |
-| `diff` | Compare deux fichiers. | `diff file1 file2` |
-</details>
-<details><summary>Managment</summary>
-
-| Commande | Description | Exemple |
-|-|-|-|
-| `cd` | Change le répertoire courant. | `cd /path` |
-| `mkdir` | Crée un répertoire. | `mkdir dir` |
-| `touch` | Crée un fichier. | `touch file` |
-| `rm` | Supprime des fichiers ou répertoires. | `rm -rf /` |
-| `mv` | Déplace ou renomme des fichiers ou répertoires. | `mv file1 file2` |
-| `cp` | Copie des fichiers ou répertoires. | `cp file1 file2` |
-| `ln` | Crée des liens symboliques ou physiques. | `ln -s file link` |
-| `chmod` | Modifie les permissions d'un fichier. | `chmod 777 file` |
-| `chown` | Modifie le propriétaire d'un fichier. | `chown -R user:group dir` |
-</details>
-
-### Utilisateurs et Groupes
-<details><summary>Énumération</summary>
-
-| Commande | Description | Exemple |
-|-|-|-|
-| `id` | Identité de l'utilisateur. | `id` |
-| `groups` | Groupes de l'utilisateur. | `groups` |
-| `sudo -l` | Droits sudo de l'utilisateur. | `sudo -l` |
-| `who` | Informations sur les utilisateurs connectés. | `who` |
-</details>
-<details><summary>Management</summary>
-
-| Commande | Description | Exemple |
-|-|-|-|
-| `useradd` | Crée un utilisateur. | `useradd -m -s /bin/bash user` |
-| `userdel` | Supprime un utilisateur. | `userdel user` |
-| `usermod` | Modifie un utilisateur. | `usermod -aG sudo user` |
-| `passwd` | Modifie le mot de passe d'un utilisateur. | `passwd user` |
-| `addgroup` | Crée un groupe. | `addgroup group` |
-| `delgroup` | Supprime un groupe. | `delgroup group` |
 </details>
 
 ### Processus
