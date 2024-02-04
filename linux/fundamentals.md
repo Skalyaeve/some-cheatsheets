@@ -220,3 +220,38 @@
 | `uniq` | Supprime les lignes en double d'une chaîne de caractères. | `uniq file` |
 | `sort` | Trie une chaîne de caractères. | `sort file` |
 </details>
+
+## Terminal
+
+### Raccourcis
+<details><summary>Déplacements</summary>
+
+| Raccourci | Description |
+|-|-|
+| `Ctrl + A` | Aller au début de la ligne en cours. |
+| `Ctrl + E` | Aller à la fin de la ligne en cours. |
+| `Ctrl + <-` | Déplacement accéléré vers la gauche. |
+| `Ctrl + ->` | Déplacement accéléré vers la droite. |
+| `Alt + B` | Déplacement d'un mot vers la gauche. |
+| `Alt + F` | Déplacement d'un mot vers la droite. |
+</details>
+<details><summary>Chaines de caractères</summary>
+
+| Raccourci | Description |
+|-|-|
+| `Ctrl + L` | Raccourci pour `clear`. |
+| `Ctrl + U` | Supprimer tout le texte avant le curseur. |
+| `Ctrl + K` | Supprimer tout le texte après le curseur. |
+| `Ctrl + W` | Supprimer le mot avant le curseur. |
+| `Ctrl + Y` | Coller le texte supprimé. |
+</details>
+<details><summary>Processus</summary>
+
+| Raccourci | Description |
+|-|-|
+| `Ctrl + C` | Arrêter le processus en cours via `SIGINT`. |
+| `Ctrl + \` | Arrêter le processus en cours via `SIGQUIT`. |
+| `Ctrl + Z` | Mettre le processus en arrière-plan via `SIGTSTP`. |
+| `Ctrl + D` | Caractère `EOF`. |
+</details>
+
