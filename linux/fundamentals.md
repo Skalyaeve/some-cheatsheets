@@ -1,5 +1,4 @@
 # Fundamentals
-> work in progress
 
 ## Structure
 <details><summary>Composants</summary>
