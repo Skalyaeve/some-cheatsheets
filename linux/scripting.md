@@ -1,88 +1,6 @@
 # Scripting
 > work in progress
 
-## Structure
-<details><summary>Conditionnel</summary>
-<details><summary>Conditionnel basique</summary>
-
-```sh
-if [ condition ]; then
-```
-```sh
-if test condition; then
-```
-- Opérateurs logiques:
-    * `-a` AND
-    ```sh
-    if [ condition1 -a condition2 ]; then
-    ```
-    * `-o` OR
-    ```sh
-    if [ condition1 -o condition2 ]; then
-    ```
-    * NOT `!`
-    ```sh
-    if [ ! condition ]; then
-    ```
-</details>
-<details><summary>Conditionnel avancé</summary>
-
-```sh
-if [[ condition ]]; then
-```
-- Opérateurs logiques **supplémentaires**:
-    * `&&` AND
-    ```sh
-    if [[ condition1 && condition2 ]]; then
-    ```
-    * `||` OR
-    ```sh
-    if [[ condition1 || condition2 ]]; then
-    ```
-    * NOT `!`
-    ```sh
-    if [[ ! condition ]]; then
-    ```
-</details>
-<details><summary>Conditionnel arithmétique</summary>
-
-```sh
-if (( condition )); then
-```
-- Fonctionne uniquement avec des nombres.
-- Ne supporte pas les opérateurs logiques.
-- Supporte uniquement les opérateurs de comparaison arithmétiques:
-    * `==` Égal
-    * `!=` Différent
-    * `>` Supérieur
-    * `<` Inférieur
-    * `>=` Supérieur ou égal
-    * `<=` Inférieur ou égal
-</details>
-
-```sh
-if conditionnel; then
-    # code
-elif conditionnel; then
-    # code
-else
-    # code
-fi
-```
-</details>
-<details><summary>Arithmétique</summary>
-
-| Opérateur | Description | Exemple |
-|-|-|-|
-| `+` | Addition | `echo $(( 1 + 1 ))` |
-| `-` | Soustraction | `echo $(( 1 - 1 ))` |
-| `*` | Multiplication | `echo $(( 1 * 1 ))` |
-| `/` | Division | `echo $(( 1 / 1 ))` |
-| `%` | Modulo | `echo $(( 1 % 1 ))` |
-| `**` | Exposant | `echo $(( 1 ** 1 ))` |
-| `++` | Incrémentation | `echo $(( i++ )) && echo $i` |
-| `--` | Décrémentation | `echo $(( i-- )) && echo $i` |
-</details>
 <details><summary>Variables</summary>
 
 | Variable | Description | Exemple |
@@ -117,6 +35,87 @@ echo ${array1[@]}
 for value in ${array1[@]}; do
     echo $value
 done
+```
+</details>
+<details><summary>Arithmétique</summary>
+
+| Opérateur | Description | Exemple |
+|-|-|-|
+| `+` | Addition | `echo $(( 1 + 1 ))` |
+| `-` | Soustraction | `echo $(( 1 - 1 ))` |
+| `*` | Multiplication | `echo $(( 1 * 1 ))` |
+| `/` | Division | `echo $(( 1 / 1 ))` |
+| `%` | Modulo | `echo $(( 1 % 1 ))` |
+| `**` | Exposant | `echo $(( 1 ** 1 ))` |
+| `++` | Incrémentation | `echo $(( i++ )) && echo $i` |
+| `--` | Décrémentation | `echo $(( i-- )) && echo $i` |
+</details>
+<details><summary>Conditionnel</summary>
+<details><summary>Conditionnel basique</summary>
+
+```sh
+if [ condition ]; then
+```
+```sh
+if test condition; then
+```
+- Opérateurs logiques:
+    * `-a` AND
+    ```sh
+    if [ condition1 -a condition2 ]; then
+    ```
+    * `-o` OR
+    ```sh
+    if [ condition1 -o condition2 ]; then
+    ```
+    * `!` NOT
+    ```sh
+    if [ ! condition ]; then
+    ```
+</details>
+<details><summary>Conditionnel avancé</summary>
+
+```sh
+if [[ condition ]]; then
+```
+- Opérateurs logiques **supplémentaires**:
+    * `&&` AND
+    ```sh
+    if [[ condition1 && condition2 ]]; then
+    ```
+    * `||` OR
+    ```sh
+    if [[ condition1 || condition2 ]]; then
+    ```
+    * NOT `!`
+    ```sh
+    if [[ ! condition ]]; then
+    ```
+</details>
+<details><summary>Conditionnel arithmétique</summary>
+
+```sh
+if (( condition )); then
+```
+- Fonctionne uniquement avec des nombres.
+- Ne supporte pas les opérateurs logiques.
+- Supporte uniquement les opérateurs de comparaison arithmétiques suivants:
+    * `==` Égal
+    * `!=` Différent
+    * `>` Supérieur
+    * `<` Inférieur
+    * `>=` Supérieur ou égal
+    * `<=` Inférieur ou égal
+</details>
+
+```sh
+if conditionnel; then
+    # code
+elif conditionnel; then
+    # code
+else
+    # code
+fi
 ```
 </details>
 

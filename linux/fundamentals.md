@@ -1,6 +1,5 @@
 # Fundamentals
 
-## Structure
 <details><summary>Composants</summary>
 
 | Composant | Description | Exemple |
