@@ -1,13 +1,13 @@
 # A knowledge synthesis
 - Linux
-    * Fundamentals
-    * Scripting
-    * PrivEsc
+    * [Fundamentals](https://github.com/Skalyaeve/doc/blob/main/linux/fundamentals.md)
+    * Scripting `work in progress`
+    * PrivEsc `work in progress`
 - Windows
-    * Fundamentals
-    * Scripting
-    * PrivEsc
+    * Fundamentals `work in progress`
+    * Scripting `work in progress`
+    * PrivEsc `work in progress`
 - Network
-    * Fundamentals
+    * Fundamentals `work in progress`
 - Web
-    * Fundamentals
+    * Fundamentals `work in progress`
