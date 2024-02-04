@@ -1,7 +1,7 @@
 # A knowledge synthesis
 - Linux
     * [Fundamentals](https://github.com/Skalyaeve/doc/blob/main/linux/fundamentals.md)
-    * Scripting `work in progress`
+    * [Scripting](https://github.com/Skalyaeve/doc/blob/main/linux/scripting.md) `work in progress`
     * PrivEsc `work in progress`
 - Windows
     * Fundamentals `work in progress`
