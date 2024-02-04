@@ -7,7 +7,7 @@
 | Composant | Description | Exemple |
 |-|-|-|
 | Bootloader | Chargé de démarrer le système. | GRUB |
-| Kernel | Chargé de gérer les ressources du système. | `linux`, `bsd` |
+| Kernel | Chargé de gérer les ressources du système. | Linux |
 | Daemons | Applications en arrière-plan. | `sshd`, `httpd` |
 | Shell | Interface entre l'utilisateur et le système. | `bash`, `zsh` |
 | Graphics Server | Chargé de gérer les graphismes. | Xorg, Wayland |
