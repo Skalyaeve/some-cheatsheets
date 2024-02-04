@@ -1,4 +1,4 @@
-# A knwoledge synthesis
+# A knowledge synthesis
 - Linux
     * Fundamentals
     * Scripting
