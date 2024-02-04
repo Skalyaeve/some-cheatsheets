@@ -6,12 +6,12 @@
 
 | Composant | Description | Exemple |
 |-|-|-|
-| Bootloader | Programme qui charge le noyau du système. | GRUB |
-| Kernel | Noyau du système. | Linux |
-| Daemons | Processus en arrière-plan. | `sshd`, `httpd` |
-| Shell | Interface en ligne de commande. | `bash`, `zsh` |
-| Graphics Server | Serveur graphique. | Xorg, Wayland |
-| Desktop Environment | Environnement  de bueau. | GNOME, xfce |
+| Bootloader | Chargé de démarrer le système. | GRUB, LILO |
+| Kernel | Chargé de gérer les ressources du système. | `linux`, `bsd` |
+| Daemons | Applications en arrière-plan. | `sshd`, `httpd` |
+| Shell | Interface entre l'utilisateur et le système. | `bash`, `zsh` |
+| Graphics Server | Chargé de gérer les graphismes. | `Xorg`, `Wayland` |
+| Desktop Environment | Chargé de créer un environnement de bureau. | `GNOME`, `KDE` |
 | Utilities | Applications et outils. | `ls`, `ps` |
 </details>
 <details><summary>Système de fichier</summary>
