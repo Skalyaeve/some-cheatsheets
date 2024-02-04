@@ -45,12 +45,12 @@
 | `/etc/shadow` | Mots de passe des utilisateurs. |
 | `/etc/group` | Informations sur les groupes. |
 | `/etc/sudoers` | Configuration de sudo. |
+| `/etc/crontab` | Configuration des tâches planifiées. |
 | `/etc/resolv.conf` | Configuration des serveurs DNS. |
 | `/etc/hosts` | Fichier de résolution de noms. |
 | `/etc/host.allow` | Configuration des accès autorisés. |
 | `/etc/host.deny` | Configuration des accès refusés. |
 | `/etc/fstab` | Configuration des points de montage. |
-| `/etc/crontab` | Configuration des tâches planifiées. |
 | `/etc/ssh/sshd_config` | Configuration du serveur SSH. |
 </details>
 
@@ -62,8 +62,8 @@
 | Commande | Description | Exemple |
 |-|-|-|
 | `pwd` | Affiche le chemin du répertoire courant. | `pwd` |
-| `tree` | Affiche une arborescence de fichiers. | `tree -h` |
-| `ls` | Liste le contenu d'un répertoire. | `ls -la` |
+| `tree` | Affiche une arborescence d'éléments'. | `tree -h` |
+| `ls` | Affiche le contenu d'un répertoire. | `ls -la` |
 | `cat` | Affiche le contenu d'un fichier. | `cat file` |
 | `whereis` | Affiche le chemin d'accès d'une commande. | `whereis ls` |
 | `locate` | Recherche des éléments. | `locate file` |
@@ -77,12 +77,12 @@
 | `cd` | Change le répertoire courant. | `cd /path` |
 | `mkdir` | Crée un répertoire. | `mkdir dir` |
 | `touch` | Crée un fichier. | `touch file` |
-| `rm` | Supprime des fichiers ou répertoires. | `rm -rf /` |
-| `mv` | Déplace ou renomme des fichiers ou répertoires. | `mv file1 file2` |
-| `cp` | Copie des fichiers ou répertoires. | `cp file1 file2` |
+| `rm` | Supprime des éléments. | `rm -rf /` |
+| `mv` | Déplace ou renomme des éléments. | `mv file1 file2` |
+| `cp` | Copie des éléments. | `cp file1 file2` |
 | `ln` | Crée des liens symboliques ou physiques. | `ln -s file link` |
-| `chmod` | Modifie les permissions d'un fichier. | `chmod 777 file` |
-| `chown` | Modifie le propriétaire d'un fichier. | `chown -R user:group dir` |
+| `chmod` | Modifie les permissions d'un élément. | `chmod 777 file` |
+| `chown` | Modifie le propriétaire d'un élément. | `chown -R user:group dir` |
 </details>
 
 ### Utilisateurs et Groupes
