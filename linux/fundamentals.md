@@ -248,8 +248,8 @@
 |-|-|
 | `Ctrl + A` | Aller au début de la ligne en cours. |
 | `Ctrl + E` | Aller à la fin de la ligne en cours. |
-| `Ctrl + [<-]` | Déplacement accéléré vers la gauche. |
-| `Ctrl + [->]` | Déplacement accéléré vers la droite. |
+| `Ctrl + [<-]` | Déplacement d'un mot vers la gauche. |
+| `Ctrl + [->]` | Déplacement d'un mot vers la droite. |
 | `Alt + B` | Déplacement d'un mot vers la gauche. |
 | `Alt + F` | Déplacement d'un mot vers la droite. |
 </details>
