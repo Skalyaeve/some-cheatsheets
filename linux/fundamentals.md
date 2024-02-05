@@ -8,9 +8,9 @@
 | Kernel | Chargé de gérer le système. | 6.5, 6.4 |
 | Daemons | Applications en arrière-plan. | `sshd`, `httpd` |
 | Shell | Interface entre l'utilisateur et le système. | `bash`, `zsh` |
+| Utilitaires | Applications. | `ls`, `ps` |
 | Graphics Server | Chargé de gérer les graphismes. | Xorg, Wayland |
 | Desktop Environment | Chargé de créer un environnement de bureau. | GNOME, xfce |
-| Utilitaires | Applications. | `ls`, `ps` |
 </details>
 <details><summary>Système de fichier</summary>
 
@@ -79,7 +79,7 @@
 | `rm` | Supprime des éléments. | `rm -rf /` |
 | `mv` | Déplace ou renomme des éléments. | `mv file1 file2` |
 | `cp` | Copie des éléments. | `cp file1 file2` |
-| `ln` | Crée des liens symboliques ou physiques. | `ln -s file link` |
+| `ln` | Fait pointer un élément vers un autre. | `ln -s file link` |
 | `chmod` | Modifie les permissions d'un élément. | `chmod 777 file` |
 | `chown` | Modifie le propriétaire d'un élément. | `chown -R user:group dir` |
 </details>
