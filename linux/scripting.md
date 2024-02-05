@@ -157,7 +157,7 @@ if (( condition )); then
     * `<=` Inférieur ou égal
 </details>
 
-#### - `select` & `case`
+#### select & case
 - `select`: Menu interactif.
 - `case`: Pareil que `if`.
 ```sh
