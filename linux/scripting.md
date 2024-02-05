@@ -35,6 +35,13 @@ for value in ${array1[@]}; do
     echo $value
 done
 ```
+#### Extra
+- `{x..y}`: Permet de générer une séquence d'éléments.
+```sh
+echo {1..10}
+echo {a..z}
+```
+
 </details>
 <details><summary>Arithmétique</summary>
 
@@ -48,6 +55,10 @@ done
 | `**` | Exposant | `echo $(( 1 ** 1 ))` |
 | `++` | Incrémentation | `echo $(( i++ )) && echo $i` |
 | `--` | Décrémentation | `echo $(( i-- )) && echo $i` |
+- `..`: Permet de générer une séquence de nombres.
+```sh
+echo {1..10}
+```
 </details>
 <details><summary>Fonctions</summary>
 
