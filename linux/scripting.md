@@ -50,7 +50,57 @@ done
 | `++` | Incrémentation | `echo $(( i++ )) && echo $i` |
 | `--` | Décrémentation | `echo $(( i-- )) && echo $i` |
 </details>
+<details><summary>Fonctions</summary>
+
+#### Déclaration
+```sh
+exemple() {
+    # code
+}
+```
+#### Appel
+```sh
+exemple arg1 arg2
+```
+</details>
+
+
+## Structures de contrôle
+
+<details><summary>Boucles</summary>
+
+- `for`: Boucle pour chaque élément.
+```sh
+for x in y; do
+    # code
+done
+```
+- `while`: Boucle tant que la condition est vraie.
+```sh
+while condition; do
+    # code
+done
+```
+- `until`: Boucle jusqu'à ce que la condition soit vraie.
+```sh
+until condition; do
+    # code
+done
+```
+- `break`: Sortir de la boucle.
+- `continue`: Passer à l'itération suivante.
+</details>
 <details><summary>Conditionnel</summary>
+
+```sh
+if conditionnel; then
+    # code
+elif conditionnel; then
+    # code
+else
+    # code
+fi
+```
 <details><summary>Conditionnel basique</summary>
 
 ```sh
@@ -60,15 +110,15 @@ if [ condition ]; then
 if test condition; then
 ```
 - Opérateurs logiques:
-    * `-a` AND
+    * `-a`: AND
     ```sh
     if [ condition1 -a condition2 ]; then
     ```
-    * `-o` OR
+    * `-o`: OR
     ```sh
     if [ condition1 -o condition2 ]; then
     ```
-    * `!` NOT
+    * `!`: NOT
     ```sh
     if [ ! condition ]; then
     ```
@@ -79,15 +129,15 @@ if test condition; then
 if [[ condition ]]; then
 ```
 - Opérateurs logiques **supplémentaires**:
-    * `&&` AND
+    * `&&`: AND
     ```sh
     if [[ condition1 && condition2 ]]; then
     ```
-    * `||` OR
+    * `||`: OR
     ```sh
     if [[ condition1 || condition2 ]]; then
     ```
-    * NOT `!`
+    * `!`: NOT
     ```sh
     if [[ ! condition ]]; then
     ```
@@ -108,18 +158,33 @@ if (( condition )); then
     * `<=` Inférieur ou égal
 </details>
 
+#### `select` & `case`
+- `select`: Menu interactif.
+- `case`: Pareil que `if`.
 ```sh
-if conditionnel; then
-    # code
-elif conditionnel; then
-    # code
-else
-    # code
-fi
+select var in a b c; do
+    case $var in
+        a)
+            # code
+            ;;
+        b)
+            # code
+            ;;
+        c)
+            # code
+            ;;
+        *)
+            # code
+            ;;
+    esac
+done
 ```
 </details>
+</details>
+
 
 ## Opérateurs de comparaison
+
 <details><summary>Chaînes de caractères</summary>
 
 | Opérateur | Description | Exemple |
