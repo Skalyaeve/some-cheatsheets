@@ -196,7 +196,6 @@ done
 | Opérateur | Description | Exemple |
 |-|-|-|
 | `-z` | Chaîne vide | `if [ -z "$var" ]; then` |
-| `-n` | Chaîne non vide | `if [ -n "$var" ]; then` |
 | `=` | Égal | `if [ "a" = "a" ]; then` |
 | `!=` | Différent | `if [ "a" != "b" ]; then` |
 | `>` | Supérieur ASCII | `if [ "a" > "b" ]; then` |
