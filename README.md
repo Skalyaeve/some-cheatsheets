@@ -11,3 +11,5 @@
     * Fundamentals `work in progress`
 - Web
     * Fundamentals `work in progress`
+- Misc
+    * Vim `work in progress`
