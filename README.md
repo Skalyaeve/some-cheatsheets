@@ -12,4 +12,4 @@
 - Web
     * Fundamentals `work in progress`
 - Misc
-    * Vim `work in progress`
+    * [Vim](https://github.com/Skalyaeve/doc/blob/main/misc/vim.md)
