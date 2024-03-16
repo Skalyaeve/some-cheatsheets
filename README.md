@@ -1,4 +1,4 @@
-# A knowledge synthesis
+# Some cheatsheet
 - Linux
     * [Fundamentals](https://github.com/Skalyaeve/doc/blob/main/linux/fundamentals.md)
     * [Scripting](https://github.com/Skalyaeve/doc/blob/main/linux/scripting.md)
